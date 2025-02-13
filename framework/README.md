@@ -7,7 +7,6 @@ This component consists of a Machine Learning pipeline receiving YAML configs an
 - Start the Pipeline with ```python3 main.py <config_folder>```
 - The results are saved under ```./output/results```
 
-o
 
 ## Start an Hyperparameter Optimization
 
