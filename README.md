@@ -21,15 +21,17 @@ Python version: 3.11.2 Dependencies in requirements.txt
 
 ## Run the scripts
 
+
+
 To run the hyperparameter optimization with YAML configs for hyperparameter optimization, use:
 
-```python3 ./framework/hp_tuning.py <config_folder>```
+```python3 framework/hp_tuning.py <config_folder>```
 
 To run any experiments with YAML configs for evaluation, use:
 
-```python3 ./framework/main.py <config_folder>```
+```python3 framework/main.py <config_folder>```
 
-To reproduce our results, just run ```python3 main.py <config_folder>``` with our prefilled config folders in ```./experiment```.
+To reproduce our results, just run ```python3 framework/main.py <config_folder>``` with our prefilled config folders in ```./experiment```.
 
 
 ## Noise Types
