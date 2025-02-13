@@ -1,4 +1,4 @@
-# 2024-Badro-BA
+# Beyond Uniform Noise: Evaluating Graph Neural Networks Under Realistic Label Noise
 
 This is the official repository of the paper "Beyond Uniform Noise: Evaluating Graph Neural Networks Under Realistic Label Noise".
 
