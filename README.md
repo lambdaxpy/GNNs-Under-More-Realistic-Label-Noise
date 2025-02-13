@@ -49,6 +49,7 @@ We used the following datasets: **Cora**, **Citeseer**, **Pubmed**, **Roman-empi
 For each dataset, we computed 10 different splits with each noise type.
 
 The splits are not delivered in this repo. If you want to reproduce the experiment, please download the splits from https://shorturl.at/gED7F.
+Create a ```splits``` folder in ```./framework/models``` and paste the splits into the folder.
 
 ## Methods
 
