@@ -1,7 +1,6 @@
 # 2024-Badro-BA
 
-This is the offical repository of the paper "Node Classification Performance of Graph Neural Networks on
-Different Label Noise Settings".
+This is the official repository of the paper "Beyond Uniform Noise: Evaluating Graph Neural Networks Under Realistic Label Noise".
 
 
 ## Project Structure
