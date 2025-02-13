@@ -1,0 +1,26 @@
+dataset:
+    name: "cora"
+    split:
+        num_train_nodes_per_class: 20
+        num_val: 500
+        num_test: 1000
+    is_homophile: False
+
+model:
+    name: "gcn"
+    lr: 0.001
+    hidden_dim: [256, 128]
+    epochs: 1000
+    patience: 50
+    runs: 5
+    dropout: [0.0]
+    norm: ["none"]
+    layers: [4]
+    res: [false]
+    optimizer: "adam"
+    weight-decay: 0.0
+
+noise:
+    name: "uniform"
+    type: "uniform"
+    ratios: [0.0, 0.2, 0.4, 0.6, 0.8]

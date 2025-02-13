@@ -1,0 +1,14 @@
+,model,dataset,noise_type,noise_ratio,accuracy,std
+0,pown,citeseer,feature-based pair,0.2,0.52562,0.048581254441199866
+1,pown,citeseer,feature-based pair,0.4,0.38434,0.05452291879926868
+2,pown,citeseer,feature-based pair,0.6,0.26426,0.04886080079014574
+3,pown,citeseer,feature-based pair,0.8,0.1701,0.035727950195710755
+4,pown,citeseer,structure-based pair,0.2,0.538,0.041648468021708115
+5,pown,citeseer,structure-based pair,0.4,0.41642,0.04745044506588629
+6,pown,citeseer,structure-based pair,0.6,0.29198,0.04410702875553828
+7,pown,citeseer,structure-based pair,0.8,0.21012,0.03495906619661081
+8,pown,citeseer,uniform,0.0,0.6129199999999999,0.029191141905725304
+9,pown,citeseer,uniform,0.2,0.5344200000000001,0.037862052422640485
+10,pown,citeseer,uniform,0.4,0.46921999999999997,0.03787793071862222
+11,pown,citeseer,uniform,0.6,0.35436,0.0496662661449791
+12,pown,citeseer,uniform,0.8,0.22732000000000002,0.03276730015688093

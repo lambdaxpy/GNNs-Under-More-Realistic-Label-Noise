@@ -1,0 +1,9 @@
+,model,dataset,noise_type,noise_ratio,accuracy,std
+0,nrgnn,amazon-ratings,structure-based pair,0.2,0.3620676139147477,0.014244231715678627
+1,nrgnn,amazon-ratings,structure-based pair,0.4,0.35658337416299196,0.026193638354879256
+2,nrgnn,amazon-ratings,structure-based pair,0.6,0.35313735097174587,0.029534226833886575
+3,nrgnn,amazon-ratings,structure-based pair,0.8,0.34699003756328595,0.03374401865381841
+4,nrgnn,amazon-ratings,feature-based pair,0.2,0.3703935979095215,0.022374879982957802
+5,nrgnn,amazon-ratings,feature-based pair,0.4,0.22070553650171484,0.09883259372490132
+6,nrgnn,amazon-ratings,feature-based pair,0.6,0.2073036093418259,0.09549679785138387
+7,nrgnn,amazon-ratings,feature-based pair,0.8,0.20497141923893514,0.09402848268971184

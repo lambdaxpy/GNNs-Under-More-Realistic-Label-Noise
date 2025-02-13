@@ -1,0 +1,4 @@
+,model,dataset,noise_type,noise_ratio,accuracy,std
+0,pown,roman-empire,uniform,0.4,0.06181433109777621,0.05106326310454754
+1,pown,roman-empire,uniform,0.6,0.06181433109777621,0.05106326310454754
+2,pown,roman-empire,uniform,0.8,0.06181433109777621,0.05106326310454754

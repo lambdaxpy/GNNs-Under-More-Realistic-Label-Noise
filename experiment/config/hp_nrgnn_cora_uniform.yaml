@@ -1,0 +1,22 @@
+dataset:
+  name: cora
+model:
+  dropout: 0.5
+  epochs: 1000
+  hidden_dim: 16
+  edge_hidden: 64
+  lr: 0.001
+  name: nrgnn
+  optimizer: adam
+  patience: 50
+  runs: 5
+  weight-decay: 0.0005
+  t_small: 0.1
+  p_u: 0.8
+  n: 50
+  alpha: [0.001, 0.01, 0.1, 1, 10]
+  beta: [0.001, 0.01, 0.1, 1, 10, 100]
+noise:
+  name: "uniform"
+  type: "uniform"
+  ratios: [0.0, 0.2, 0.4, 0.6, 0.8]

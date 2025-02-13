@@ -1,0 +1,22 @@
+dataset:
+  name: pubmed
+
+model:
+  epochs: 1000
+  hidden_dim: 16
+  ANet_dim: [50, 64, 100]
+  lr: 0.01
+  A_lr: 0.001
+  name: lpm
+  optimizer: adam
+  patience: 50
+  runs: 5
+  weight-decay: 0.0005
+  A_weight-decay: 0.0001
+  lpa-iters: [25, 50]
+  clean_label_num: 28
+
+noise:
+  name: "feature-based pair"
+  type: "pair"
+  ratios: [0.0, 0.2, 0.4, 0.6, 0.8]

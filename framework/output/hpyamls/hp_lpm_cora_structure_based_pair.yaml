@@ -1,0 +1,25 @@
+dataset:
+  name: cora
+model:
+  ANet_dim: 50
+  A_lr: 0.001
+  A_weight-decay: 0.0001
+  clean_label_num: 28
+  epochs: 1000
+  hidden_dim: 16
+  lpa-iters: 25
+  lr: 0.01
+  name: lpm
+  optimizer: adam
+  patience: 50
+  runs: 5
+  weight-decay: 0.0005
+noise:
+  name: structure-based pair
+  ratios:
+  - 0.0
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  type: pair

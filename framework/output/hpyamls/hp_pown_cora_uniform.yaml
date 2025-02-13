@@ -1,0 +1,27 @@
+dataset:
+  name: cora
+model:
+  alpha: 0.7
+  dropout: 0.2
+  epochs: 1000
+  hidden_dim: 256
+  layers: 4
+  lr: 0.001
+  name: pown
+  norm: layer
+  optimizer: adam
+  patience: 50
+  res: false
+  runs: 5
+  sup_loss_weight: 0.1
+  u: 0.2
+  weight-decay: 0.0
+noise:
+  name: uniform
+  ratios:
+  - 0.0
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  type: uniform

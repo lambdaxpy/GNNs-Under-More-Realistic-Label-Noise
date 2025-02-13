@@ -1,0 +1,6 @@
+,model,dataset,noise_type,noise_ratio,accuracy,std
+0,nrgnn,amazon-ratings,uniform,0.0,0.36731340845990534,0.00964144143258507
+1,nrgnn,amazon-ratings,uniform,0.2,0.3712787849093582,0.00694326533076659
+2,nrgnn,amazon-ratings,uniform,0.4,0.36957373836354723,0.004712719501859437
+3,nrgnn,amazon-ratings,uniform,0.6,0.37006696064020894,0.003122096114723431
+4,nrgnn,amazon-ratings,uniform,0.8,0.27995427078229623,0.05631213795564068

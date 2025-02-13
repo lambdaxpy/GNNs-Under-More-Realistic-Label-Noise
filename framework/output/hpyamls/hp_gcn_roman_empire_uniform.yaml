@@ -1,0 +1,19 @@
+dataset:
+  name: roman-empire
+model:
+  dropout: 0.5
+  epochs: 1000
+  hidden_dim: 128
+  layers: 4
+  lr: 0.001
+  name: gcn
+  norm: layer
+  optimizer: adam
+  patience: 50
+  res: true
+  runs: 5
+  weight-decay: 0.0
+noise:
+  name: "uniform"
+  type: "uniform"
+  ratios: [0.0, 0.2, 0.4, 0.6, 0.8]

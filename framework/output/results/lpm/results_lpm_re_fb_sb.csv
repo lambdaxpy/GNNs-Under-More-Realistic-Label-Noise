@@ -1,0 +1,9 @@
+,model,dataset,noise_type,noise_ratio,accuracy,std
+0,lpm,roman-empire,structure-based pair,0.2,0.056847865805029874,0.039301096666649236
+1,lpm,roman-empire,structure-based pair,0.4,0.04687963426113129,0.010460854803662696
+2,lpm,roman-empire,structure-based pair,0.6,0.05157430425286293,0.018571859819899967
+3,lpm,roman-empire,structure-based pair,0.8,0.04881750948727131,0.02149664707481861
+4,lpm,roman-empire,feature-based pair,0.2,0.052830922454595565,0.03353688597679138
+5,lpm,roman-empire,feature-based pair,0.4,0.04994352415204049,0.020312161996711924
+6,lpm,roman-empire,feature-based pair,0.6,0.06714790068566799,0.03164615923135304
+7,lpm,roman-empire,feature-based pair,0.8,0.06689375288784505,0.028422288588246903

@@ -1,0 +1,27 @@
+dataset:
+  name: roman-empire
+model:
+  alpha: 0.2
+  dropout: 0.5
+  epochs: 1000
+  hidden_dim: 128
+  layers: 4
+  lr: 0.001
+  name: pown
+  norm: layer
+  optimizer: adam
+  patience: 50
+  res: true
+  runs: 5
+  sup_loss_weight: 0.5
+  u: 0.5
+  weight-decay: 0.0
+noise:
+  name: feature-based pair
+  ratios:
+  - 0.0
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  type: pair
