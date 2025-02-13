@@ -1,0 +1,27 @@
+dataset:
+  name: citeseer
+model:
+  alpha: 0.5
+  dropout: 0.5
+  epochs: 1000
+  hidden_dim: 512
+  layers: 4
+  lr: 0.001
+  name: pown
+  norm: none
+  optimizer: adam
+  patience: 50
+  res: true
+  runs: 5
+  sup_loss_weight: 0.5
+  u: 0.2
+  weight-decay: 0.0
+noise:
+  name: structure-based pair
+  ratios:
+  - 0.0
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  type: pair

@@ -1,0 +1,19 @@
+dataset:
+  name: pubmed
+model:
+  dropout: [0.0, 0.2, 0.5, 0.8]
+  epochs: 1000
+  hidden_dim: [64, 128, 256, 512]
+  layers: [1, 2, 3, 4]
+  lr: 0.001
+  name: gcn
+  norm: ["none", "layer"]
+  optimizer: adam
+  patience: 50
+  res: [true, false]
+  runs: 5
+  weight-decay: 0.0
+noise:
+  name: "feature-based pair"
+  type: "pair"
+  ratios: [0.0, 0.2, 0.4, 0.6, 0.8]
