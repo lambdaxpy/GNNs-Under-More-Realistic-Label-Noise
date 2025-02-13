@@ -9,12 +9,14 @@ The repository is divided into two components.
 
 **Framework: (```./framework```)**
 The Framework is a Machine Learning pipeline for the experiments and hyperparameter optimization.
-More information about *Framework* can be found in the respective ReadMe.
+
+More information can be found in the respective ReadMe.
 
 **Experiment: (```./experiment```)**
 The Experiment holds the YAML configuration files of all experiments for the Framework.
 For reproducibility, we have stored our experiments in separate config folders.
-More information about *Experiment* can be found in the respective ReadMe.
+
+More information can be found in the respective ReadMe.
 
 
 ## Requirements
