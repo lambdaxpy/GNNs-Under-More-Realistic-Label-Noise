@@ -46,7 +46,9 @@ We used the following datasets: **Cora**, **Citeseer**, **Pubmed**, **Roman-empi
 
 **Roman-empire**, and **Amazon-ratings** are instances of the ```HeterophilousDataset``` class of ```torch-geometric```
 
-For each dataset, we computed 10 different splits with each noise type, stored in ```./framework/datasets/splits```
+For each dataset, we computed 10 different splits with each noise type.
+
+The splits are not delivered in this repo. If you want to reproduce the experiment, please download the splits from https://shorturl.at/gED7F.
 
 ## Methods
 
