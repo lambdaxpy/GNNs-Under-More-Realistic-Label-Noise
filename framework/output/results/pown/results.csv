@@ -1,14 +1,14 @@
 ,Unnamed: 0,model,dataset,noise_type,noise_ratio,accuracy,std
-0,0,pown,roman-empire,structure-based pair,0.2,0.0618143310977762,0.0510632631045475
-1,1,pown,roman-empire,structure-based pair,0.4,0.0618143310977762,0.0510632631045475
-2,2,pown,roman-empire,structure-based pair,0.6,0.0618143310977762,0.0510632631045475
-3,3,pown,roman-empire,structure-based pair,0.8,0.0618143310977762,0.0510632631045475
-4,0,pown,roman-empire,uniform,0.0,0.0618143310977762,0.0510632631045475
-5,1,pown,roman-empire,uniform,0.2,0.0618143310977762,0.0510632631045475
-6,0,pown,roman-empire,feature-based pair,0.2,0.0618143310977762,0.0510632631045475
-7,1,pown,roman-empire,feature-based pair,0.4,0.0618143310977762,0.0510632631045475
-8,2,pown,roman-empire,feature-based pair,0.6,0.0618143310977762,0.0510632631045475
-9,3,pown,roman-empire,feature-based pair,0.8,0.0618143310977762,0.0510632631045475
+0,0,pown,roman-empire,structure-based pair,0.2,0.6986445464172255,0.0102322595544644
+1,1,pown,roman-empire,structure-based pair,0.4,0.4701835510060007,0.0191810425260454
+2,2,pown,roman-empire,structure-based pair,0.6,0.1866749029297564,0.00563519851734
+3,3,pown,roman-empire,structure-based pair,0.8,0.1771655488881044,0.0059296391569915
+4,0,pown,roman-empire,uniform,0.0,0.7712389692905048,0.0083910566555225
+5,1,pown,roman-empire,uniform,0.2,0.7217472643840452,0.0084248248705414
+6,0,pown,roman-empire,feature-based pair,0.2,0.6831097776208965,0.017957406428561
+7,1,pown,roman-empire,feature-based pair,0.4,0.3286516060713025,0.1382859061021355
+8,2,pown,roman-empire,feature-based pair,0.6,0.0967666784327568,0.0001679180432622
+9,3,pown,roman-empire,feature-based pair,0.8,0.0967490292975644,0.0001927057354819
 10,0,pown,citeseer,feature-based pair,0.2,0.52562,0.0485812544411998
 11,1,pown,citeseer,feature-based pair,0.4,0.38434,0.0545229187992686
 12,2,pown,citeseer,feature-based pair,0.6,0.26426,0.0488608007901457
@@ -48,9 +48,9 @@
 46,10,pown,pubmed,structure-based pair,0.4,0.45342,0.0889473230447488
 47,11,pown,pubmed,structure-based pair,0.6,0.39252,0.028699205477969
 48,12,pown,pubmed,structure-based pair,0.8,0.384,0.0218174414590137
-49,0,pown,roman-empire,uniform,0.4,0.0618143310977762,0.0510632631045475
-50,1,pown,roman-empire,uniform,0.6,0.0618143310977762,0.0510632631045475
-51,2,pown,roman-empire,uniform,0.8,0.0618143310977762,0.0510632631045475
+49,0,pown,roman-empire,uniform,0.4,0.6460713025061773,0.0090234350375191
+50,1,pown,roman-empire,uniform,0.6,0.4852170843628662,0.0616651085096454
+51,2,pown,roman-empire,uniform,0.8,0.2276844334627603,0.0795887943835824
 52,0,pown,cora,structure-based pair,0.2,0.69646,0.0525154317996461
 53,1,pown,cora,structure-based pair,0.4,0.5021800000000001,0.062307026142826
 54,2,pown,cora,structure-based pair,0.6,0.35092,0.0443226470533745

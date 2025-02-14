@@ -428,7 +428,7 @@ def evaluate_pown(dataset: Dataset, data: torch_geometric.data.Data, mask: torch
             break
 
     if stopped_early:
-        pown.load_state_dict(torch.load(os.path.join(PATH, f"train/esmodels/pown_{dataset.__str__()}.pt")))
+        pown.load_state_dict(torch.load(os.path.join(PATH, f"train/esmodels/pown_{str(timestamp)}.pt")))
 
     pown.eval()
     pred = pown(data.x, data.edge_index)
