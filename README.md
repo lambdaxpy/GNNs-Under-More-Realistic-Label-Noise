@@ -10,9 +10,13 @@ The repository is divided into two components.
 **Framework: (```./framework```)**
 The Framework is a Machine Learning pipeline for the experiments and hyperparameter optimization.
 
+More information can be found in the respective ReadMe.
+
 **Experiment: (```./experiment```)**
 The Experiment holds the YAML configuration files of all experiments for the Framework.
 For reproducibility, we have stored our experiments in separate config folders.
+
+More information can be found in the respective ReadMe.
 
 
 ## Requirements
@@ -21,15 +25,17 @@ Python version: 3.11.2 Dependencies in requirements.txt
 
 ## Run the scripts
 
+
+
 To run the hyperparameter optimization with YAML configs for hyperparameter optimization, use:
 
-```python3 hp_tuning.py <config_folder>```
+```python3 framework/hp_tuning.py <config_folder>```
 
 To run any experiments with YAML configs for evaluation, use:
 
-```python3 main.py <config_folder>```
+```python3 framework/main.py <config_folder>```
 
-To reproduce our results, just run ```python3 main.py <config_folder>``` with our prefilled config folders in ```./experiment```.
+To reproduce our results, just run ```python3 framework/main.py <config_folder>``` with our prefilled config folders in ```./experiment```.
 
 
 ## Noise Types
@@ -49,6 +55,7 @@ We used the following datasets: **Cora**, **Citeseer**, **Pubmed**, **Roman-empi
 For each dataset, we computed 10 different splits with each noise type.
 
 The splits are not delivered in this repo. If you want to reproduce the experiment, please download the splits from https://shorturl.at/gED7F.
+Create a ```splits``` folder in ```./framework/models``` and paste the splits into the folder.
 
 ## Methods
 
